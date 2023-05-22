@@ -10,11 +10,11 @@ this description is used for validating the behavior of date-time implementation
 If you are building with .NET CLI tools then you can also use the following command:
 
 ```bash
-dotnet add package DatetimebetapackageSDK --version 1.0.0
+dotnet add package DatetimebetapackageSDK --version 1.0.1
 ```
 
 You can also view the package at:
-https://www.nuget.org/packages/DatetimebetapackageSDK/1.0.0
+https://www.nuget.org/packages/DatetimebetapackageSDK/1.0.1
 
 ## Test the SDK
 
@@ -22,7 +22,7 @@ The generated SDK also contain one or more Tests, which are contained in the Tes
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -56,18 +56,18 @@ The SDK can be configured to use a different environment for making API calls. A
 
 ## List of APIs
 
-* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/body-params.md)
-* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/form-params.md)
+* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/body-params.md)
+* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/form-params.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/utility-classes.md)
-* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-request.md)
-* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-string-response.md)
-* [HttpContext](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-context.md)
-* [HttpClientConfiguration](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-client-configuration.md)
-* [HttpClientConfiguration Builder](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-client-configuration-builder.md)
-* [IAuthManager](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/i-auth-manager.md)
-* [ApiException](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/api-exception.md)
+* [Utility Classes](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/utility-classes.md)
+* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-request.md)
+* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-string-response.md)
+* [HttpContext](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-context.md)
+* [HttpClientConfiguration](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-client-configuration.md)
+* [HttpClientConfiguration Builder](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-client-configuration-builder.md)
+* [IAuthManager](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/i-auth-manager.md)
+* [ApiException](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/api-exception.md)
 
