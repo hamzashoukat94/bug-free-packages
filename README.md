@@ -10,19 +10,19 @@ this description is used for validating the behavior of date-time implementation
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "idrm/date-time-beta-package-sdk:1.0.0"
+composer require "idrm/date-time-beta-package-sdk:1.0.1"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "idrm/date-time-beta-package-sdk": "1.0.0"
+    "idrm/date-time-beta-package-sdk": "1.0.1"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/idrm/date-time-beta-package-sdk#1.0.0
+https://packagist.org/packages/idrm/date-time-beta-package-sdk#1.0.1
 
 ## Test the SDK
 
@@ -35,7 +35,7 @@ You can change the PHPUnit test configuration in the `phpunit.xml` file.
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -77,12 +77,12 @@ The SDK can be configured to use a different environment for making API calls. A
 
 ## List of APIs
 
-* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/body-params.md)
-* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/form-params.md)
+* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/body-params.md)
+* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/form-params.md)
 
 ## Classes Documentation
 
-* [ApiException](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-request.md)
-* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-response.md)
+* [ApiException](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-request.md)
+* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-response.md)
 
