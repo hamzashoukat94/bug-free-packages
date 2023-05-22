@@ -11,11 +11,11 @@ The package is compatible with Python versions `3 >=3.7, <= 3.11`.
 Install the package from PyPi using the following pip command:
 
 ```python
-pip install date-time-beta-package-sdk==1.0.0
+pip install date-time-beta-package-sdk==1.0.1
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/date-time-beta-package-sdk/1.0.0
+https://pypi.python.org/pypi/date-time-beta-package-sdk/1.0.1
 
 ## Test the SDK
 
@@ -30,7 +30,7 @@ pytest
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -70,12 +70,12 @@ The SDK can be configured to use a different environment for making API calls. A
 
 ## List of APIs
 
-* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/body-params.md)
-* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/form-params.md)
+* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/body-params.md)
+* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/form-params.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-response.md)
-* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-request.md)
+* [Utility Classes](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-response.md)
+* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-request.md)
 
