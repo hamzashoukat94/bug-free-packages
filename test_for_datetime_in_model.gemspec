@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'date-time-beta-package-sdk'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary = 'SDK to date time'
   s.description = 'It does nothing'
   s.authors = ['Hamza Shoukat']

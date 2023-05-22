@@ -10,16 +10,16 @@ this description is used for validating the behavior of date-time implementation
 Install the gem from the command line:
 
 ```ruby
-gem install date-time-beta-package-sdk -v 1.0.0
+gem install date-time-beta-package-sdk -v 1.0.1
 ```
 
 Or add the gem to your Gemfile and run `bundle`:
 
 ```ruby
-gem 'date-time-beta-package-sdk', '1.0.0'
+gem 'date-time-beta-package-sdk', '1.0.1'
 ```
 
-For additional gem details, see the [RubyGems page for the date-time-beta-package-sdk gem](https://rubygems.org/gems/date-time-beta-package-sdk/versions/1.0.0).
+For additional gem details, see the [RubyGems page for the date-time-beta-package-sdk gem](https://rubygems.org/gems/date-time-beta-package-sdk/versions/1.0.1).
 
 ## Test the SDK
 
@@ -31,7 +31,7 @@ rake
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -73,12 +73,12 @@ The SDK can be configured to use a different environment for making API calls. A
 
 ## List of APIs
 
-* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/body-params.md)
-* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/controllers/form-params.md)
+* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/body-params.md)
+* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/form-params.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-response.md)
-* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.0/doc/http-request.md)
+* [Utility Classes](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-response.md)
+* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/http-request.md)
 
