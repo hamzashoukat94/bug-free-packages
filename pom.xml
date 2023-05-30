@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.hamzashoukat94</groupId>
   <artifactId>test-package-publish-sdk</artifactId>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   <packaging>jar</packaging>
   <name>test-package-publish SDK</name>
   <description>Test the different API specification features</description>
