@@ -7,15 +7,15 @@
 
 ## Fields
 
-| Name | Type | Tags | Description |
-|  --- | --- | --- | --- |
-| `dateTime` | `number` | Required | - |
+| Name | Type | Tags | Description | Getter | Setter |
+|  --- | --- | --- | --- | --- | --- |
+| `DateTime` | `LocalDateTime` | Optional | - | LocalDateTime getDateTime() | setDateTime(LocalDateTime dateTime) |
 
 ## Example (as JSON)
 
 ```json
 {
-  "dateTime": 1480809600
+  "dateTime": 1484719381
 }
 ```
 
