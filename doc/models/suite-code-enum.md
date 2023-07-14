@@ -11,8 +11,8 @@ A integer based enum representing a Suite in a game of cards
 
 | Name |
 |  --- |
-| `hearts` |
-| `spades` |
-| `clubs` |
-| `diamonds` |
+| `Hearts` |
+| `Spades` |
+| `Clubs` |
+| `Diamonds` |
 

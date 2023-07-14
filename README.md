@@ -1,63 +1,57 @@
 
-# Getting Started with Test for Datetime in Model
-
-## Introduction
-
-this description is used for validating the behavior of date-time implementation in java.
+# Getting Started with BATester
 
 ## Install the Package
 
-Run the following command from your project directory to install the package from npm:
+Install the SDK by adding the following dependency in your project's pom.xml file:
 
-```ts
-npm install date-time-beta-package-sdk@1.0.1
+```xml
+<dependency>
+  <groupId>io.apimatic</groupId>
+  <artifactId>first-package-sdk</artifactId>
+  <version>1.1.1</version>
+</dependency>
 ```
 
-For additional package details, see the [Npm page for the date-time-beta-package-sdk@1.0.1  npm](https://www.npmjs.com/package/date-time-beta-package-sdk/v/1.0.1).
+You can also view the package at:
+https://mvnrepository.com/artifact/io.apimatic/first-package-sdk/1.1.1
+
+## Test the SDK
+
+The generated code and the server can be tested using automatically generated test cases.
+JUnit is used as the testing framework and test runner.
+
+In Eclipse, for running the tests do the following:
+
+1. Select the project BATesterLib from the package explorer.
+2. Select `Run -> Run as -> JUnit Test` or use `Alt + Shift + X` followed by `T` to run the Tests.
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `port` | `string` | *Default*: `'80'` |
-| `suites` | `SuiteCodeEnum` | *Default*: `SuiteCodeEnum.Hearts` |
-| `environment` | Environment | The API environment. <br> **Default: `Environment.Testing`** |
-| `timeout` | `number` | Timeout for API calls.<br>*Default*: `0` |
-| `httpClientOptions` | `Partial<HttpClientOptions>` | Stable configurable http client options. |
-| `unstableHttpClientOptions` | `any` | Unstable configurable http client options. |
-
-### HttpClientOptions
-
-| Parameter | Type | Description |
-|  --- | --- | --- |
-| `timeout` | `number` | Timeout in milliseconds. |
-| `httpAgent` | `any` | Custom http agent to be used when performing http requests. |
-| `httpsAgent` | `any` | Custom https agent to be used when performing http requests. |
-| `retryConfig` | `Partial<RetryConfiguration>` | Configurations to retry requests. |
-
-### RetryConfiguration
-
-| Parameter | Type | Description |
-|  --- | --- | --- |
-| `maxNumberOfRetries` | `number` | Maximum number of retries. <br> *Default*: `0` |
-| `retryOnTimeout` | `boolean` | Whether to retry on request timeout. <br> *Default*: `true` |
-| `retryInterval` | `number` | Interval before next retry. Used in calculation of wait time for next request in case of failure. <br> *Default*: `1` |
-| `maximumRetryWaitTime` | `number` | Overall wait time for the requests getting retried. <br> *Default*: `0` |
-| `backoffFactor` | `number` | Used in calculation of wait time for next request in case of failure. <br> *Default*: `2` |
-| `httpStatusCodesToRetry` | `number[]` | Http status codes to retry against. <br> *Default*: `[408, 413, 429, 500, 502, 503, 504, 521, 522, 524]` |
-| `httpMethodsToRetry` | `HttpMethod[]` | Http methods to retry against. <br> *Default*: `['GET', 'PUT']` |
+| `port` | `String` | *Default*: `"80"` |
+| `suites` | `SuiteCodeEnum` | *Default*: `SuiteCodeEnum.HEARTS` |
+| `environment` | Environment | The API environment. <br> **Default: `Environment.TESTING`** |
+| `httpClientConfig` | [`ReadonlyHttpClientConfiguration`](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-client-configuration.md) | Http Client Configuration instance. |
+| `basicAuthUserName` | `String` | The username to use with basic authentication |
+| `basicAuthPassword` | `String` | The password to use with basic authentication |
 
 The API client can be initialized as follows:
 
-```ts
-const client = new Client({
-  timeout: 0,
-  environment: Environment.Testing,
-});
+```java
+BATesterClient client = new BATesterClient.Builder()
+    .httpClientConfig(configBuilder -> configBuilder
+            .timeout(0))
+    .basicAuthCredentials("BasicAuthUserName", "BasicAuthPassword")
+    .environment(Environment.TESTING)
+    .port("80")
+    .suites(SuiteCodeEnum.HEARTS)
+    .build();
 ```
 
 ## Environments
@@ -71,13 +65,26 @@ The SDK can be configured to use a different environment for making API calls. A
 | production | - |
 | testing | **Default** |
 
+## Authorization
+
+This API uses `Basic Authentication`.
+
 ## List of APIs
 
-* [Body Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/body-params.md)
-* [Form Params](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/controllers/form-params.md)
+* [API](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/controllers/api.md)
 
 ## Classes Documentation
 
-* [ApiResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/api-response.md)
-* [ApiError](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.0.1/doc/api-error.md)
+* [Utility Classes](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/utility-classes.md)
+* [HttpRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-request.md)
+* [HttpResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-string-response.md)
+* [HttpContext](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-body-request.md)
+* [HttpCallback Interface](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-callback-interface.md)
+* [Headers](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/headers.md)
+* [ApiException](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/api-exception.md)
+* [Configuration Interface](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/hamzashoukat94/bug-free-packages/tree/1.1.1/doc/http-client-configuration-builder.md)
 
